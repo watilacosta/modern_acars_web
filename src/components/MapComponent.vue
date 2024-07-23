@@ -27,7 +27,6 @@ const geoJson = new format.GeoJSON()
 </script>
 
 <style scoped>
-html,
 .map {
   width: 100%;
   height: 700px;

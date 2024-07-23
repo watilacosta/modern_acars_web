@@ -1,16 +1,15 @@
 <script setup lang="ts">
-import MapComponent from '@/components/MapComponent.vue'
+import TopMenuComponent from '@/components/TopMenuComponent.vue'
 </script>
 
 <template>
+  <TopMenuComponent />
   <RouterView />
-  <MapComponent />
 </template>
 
-<style scoped>
+<style>
 html,
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
 }
